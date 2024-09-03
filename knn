@@ -14,3 +14,6 @@ y_pred=knn.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 print(f'Accuracy of k-NN with k={k}:{accuracy:2f}')
 print(accuracy)
+#output
+Accuracy of k-NN with k=3:1.000000
+1.0
